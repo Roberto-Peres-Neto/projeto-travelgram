@@ -1,0 +1,67 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding-block: 24px;
+}
+
+main img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+}
+
+.explorer {
+  width: 80px;
+  padding: 2px;
+
+  cursor: pointer;
+}
+
+.explorer {
+  background-color: #2b7ce6;
+  color: white;
+  padding: 15px 32px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  width: 80px;
+  border-radius: 6px;
+  padding: 2px;
+
+  cursor: pointer;
+}
+
+.explorer:hover {
+  transform: scale(1.12);
+}
+
+.vagas {
+  background-color: #e6da2b;
+  color: white;
+  padding: 15px 32px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  width: 120px;
+  border-radius: 6px;
+  padding: 2px;
+
+  cursor: pointer;
+}
+
+.vagas:hover {
+  transform: scale(1.12);
+}
+
+.profile-hover {
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.profile-hover:hover {
+  transform: scale(1.12);
+}
